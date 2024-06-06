@@ -5,6 +5,20 @@ The Thermostat operates by monitoring the temperature of the system which is use
 
 This repository contains the code of this project.
 
+## Features
++ Temperature Input: Users can input their desired temperature.
++ Heating Mode: Activates if the input temperature is below 20°C.
++ Cooling Mode: Activates if the input temperature is above 25°C.
++ Off Mode: The thermostat turns off when the input temperature is within the range of 20°C to 25°C, or when the "Turn off" button is pressed.
++ Visual Indicator: Displays the current state of the thermostat using text and a colored oval (grey for off, red for heating, and blue for cooling).
+
+## Installation
+To run this project, you need to have Python installed on your system. This project uses Tkinter, which is included with Python standard libraries.
+
+1 Clone the repository or download the source code files. <br/>
+2 Navigate to the directory containing the source code files.
+
+
 ## Dependecy required
 ```
 pip install tkinter
